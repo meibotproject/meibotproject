@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: gray; }
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 420vh;
+  padding: 20px; }
+
+.flex-container {
+  display: flex; }
+
+header a {
+  text-decoration: none;
+  color: black;
+  flex-grow: 1; }
+
+header h1 {
+  font-size: 2.5em;
+  font-family: 'Pacifico';
+  color: gray; }
+
+header ul {
+  align-items: center;
+  list-style: none;
+  justify-content: flex-end; }
+  header ul a li {
+    margin: 0 10px; }
+
+.s1, .s2, .s3, .s4 {
+  height: 100vh; }
+  .s1 .bot, .s2 .bot, .s3 .bot, .s4 .bot {
+    height: 500px;
+    padding: 70px; }
+  .s1 .content, .s2 .content, .s3 .content, .s4 .content {
+    margin: 120px 0 0 40px;
+    width: 30vw; }
+    .s1 .content h2, .s2 .content h2, .s3 .content h2, .s4 .content h2 {
+      font-size: 2.2em;
+      font-family: 'Pacifico';
+      color: green; }
+    .s1 .content .myButton, .s2 .content .myButton, .s3 .content .myButton, .s4 .content .myButton {
+      background-color: #44c767;
+      -moz-border-radius: 28px;
+      -webkit-border-radius: 28px;
+      border-radius: 28px;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: Arial;
+      font-size: 17px;
+      padding: 16px 31px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627; }
+    .s1 .content .myButton:hover, .s2 .content .myButton:hover, .s3 .content .myButton:hover, .s4 .content .myButton:hover {
+      background-color: #5cbf2a; }
+    .s1 .content .myButton:active, .s2 .content .myButton:active, .s3 .content .myButton:active, .s4 .content .myButton:active {
+      position: relative;
+      top: 1px; }
+
+.s2 {
+  flex-direction: row-reverse; }
+
+.s3 {
+  margin-top: -150px; }
+  .s3 ul li {
+    margin-bottom: 15px; }
+  .s3 img {
+    margin-top: 100px; }
+
+.s4 {
+  flex-direction: column;
+  align-items: center; }
+  .s4 .content {
+    margin: 0;
+    flex-direction: column;
+    width: 15vw; }
+    .s4 .content h2 {
+      margin-top: 150px;
+      text-align: center; }
+    .s4 .content a {
+      width: 10vw;
+      text-align: center;
+      margin-bottom: 250px; }
+
+.top {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: gray;
+  display: block; }
+
+.s1top {
+  margin-top: 150px; }
+
+.s2top {
+  margin-top: 150px; }
+
+.s3top {
+  margin-left: 40px; }
+
+.s4top {
+  margin-left: 200px; }
+
+.social-media {
+  justify-content: center;
+  font-size: 3em; }
+  .social-media a {
+    color: green; }
+  .social-media i {
+    margin-top: 90px;
+    padding: 0 15px; }

@@ -1,0 +1,102 @@
+.s1, .s2, .s3, .s4 {
+    height: 100vh;
+
+    .bot {
+        height: 500px;
+        padding: 70px;
+    }
+    .content {
+        margin: 120px 0 0 40px;
+        width: 30vw;
+
+        h2 {
+            font-size: 2.2em;
+            font-family: 'Pacifico';
+            color: green;
+        }
+
+        .myButton {
+            background-color:#44c767;
+            -moz-border-radius:28px;
+            -webkit-border-radius:28px;
+            border-radius:28px;
+            
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:17px;
+            padding:16px 31px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #2f6627;
+        }
+        .myButton:hover {
+            background-color:#5cbf2a;
+        }
+        .myButton:active {
+            position:relative;
+            top:1px;
+        }
+    }
+}
+
+.s2 {
+    flex-direction: row-reverse;
+}
+
+.s3 {
+    margin-top: -150px;
+    ul {
+        li {
+            margin-bottom: 15px;
+        }
+    }
+    img {
+        margin-top:100px;
+    }
+}
+
+.s4 {
+    flex-direction: column;
+    align-items: center;
+    .content {
+        margin: 0;
+        flex-direction: column;
+        width: 15vw;
+
+        h2 {
+            margin-top: 150px;
+            text-align: center;
+        }
+
+        a {
+            width: 10vw;
+            text-align: center;
+            margin-bottom: 250px;
+        }
+        
+    }
+}
+
+.top {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: gray;
+    display: block;
+}
+
+.s1top {
+    margin-top: 150px;
+}
+
+.s2top {
+    margin-top: 150px;
+}
+
+.s3top {
+    margin-left: 40px;
+}
+
+.s4top {
+    margin-left: 200px;
+}
